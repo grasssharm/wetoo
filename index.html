@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="homepage">
+      <div class="div">
+        <footer class="footer">
+          <div class="overlap">
+            <div class="group">
+              <div class="overlap-group">
+                <img class="line" src="img/line.svg" />
+                <p class="element-landing-all">© 2024 All Rights Reserved.</p>
+              </div>
+            </div>
+            <img class="WE-TOO-w" src="img/we-too-w-1.png" />
+            <div class="text-wrapper"># WE TOO</div>
+            <div class="element">
+              <div class="FOLLOW-US">Social Media</div>
+              <img class="facebook" src="img/facebook.svg" />
+              <img class="twitter" src="img/twitter.svg" />
+              <img class="shape" src="img/shape.svg" />
+            </div>
+            <div class="group-2">
+              <div class="text-wrapper-2">65 8888 6666</div>
+              <div class="text-wrapper-3"><a href="mailto:wetoo@gmail.com" target="_blank">wetoo@gmail.com</a></div>
+              <div class="text-wrapper-4">Background</div>
+              <div class="text-wrapper-5">Method</div>
+              <div class="text-wrapper-6">Mapping</div>
+              <div class="text-wrapper-7">Shared Story</div>
+              <div class="text-wrapper-8">Survey</div>
+              <div class="text-wrapper-9">Information</div>
+              <div class="text-wrapper-10">Contacts</div>
+              <img class="vector" src="img/vector.svg" />
+              <img class="img" src="img/group.png" />
+              <img class="group-3" src="img/group-1.png" />
+              <p class="element-architecture-dr"><a href="https://maps.app.goo.gl/oiXxNNHfD2iRBXHM8">8 Architecture Dr, <br />Singapore 117564</a></p>
+            </div>
+          </div>
+        </footer>
+        <div class="overlap-2">
+          <div class="SIDE-BAR-DONT-DELETE">
+            <div class="about"><a href="index.html">ABOUT</a></div>
+            <div class="method"><a href="Method.html">METHOD</a></div>
+            <div class="shared-story"><a href="sharedstories.html">SHARED STORY</a></div>
+            <div class="survey"><a href="survey.html">SURVEY</a></div>
+            <div class="mapping"><a href="mapping.html">MAPPING</a></div>
+            <div class="text-wrapper-11"><a href="index.html"># WE TOO</a></div>
+            <a href="index.html"><img class="WE-TOO" src="img/we-too-1.png" alt="WE TOO"/></a>
+          </div>
+          <div class="rectangle"></div>
+          <div class="rectangle-2"></div>
+        </div>
+        <div class="group-4">
+          <img class="SAFETY-PERCEPTION" src="img/safety-perception.png" />
+          <img class="though-MAPS" src="img/though-maps.png" />
+          <img class="group-5" src="img/group-13.png" />
+          <div class="group-wrapper">
+            <div class="image-wrapper"><img class="image" src="img/image-48.png" /></div>
+          </div>
+          <img class="image-2" src="img/image-50.png" />
+        </div>
+        <div class="overlap-3">
+          <img class="safety-perception-in" src="img/safety-perception-in.png" /> <img class="NYC" src="img/nyc.png" />
+        </div>
+        <img class="brooklyn" src="img/brooklyn.png" />
+        <div class="text-wrapper-12">Objectives</div>
+        <div class="text-wrapper-13">1</div>
+        <p class="address-people-s">
+          Address people&#39;s safety concerns by utilizing data on crimes and sexual harassment in the US.
+        </p>
+        <div class="text-wrapper-14">3</div>
+        <p class="p">Provide a mapping visualisation to highlight areas with high incident frequencies.</p>
+        <div class="text-wrapper-15">5</div>
+        <p class="text-wrapper-16">
+          Encourage public participation to enhance public safety through community engagement.
+        </p>
+        <div class="text-wrapper-17">2</div>
+        <p class="text-wrapper-18">Empower public to make informed decisions about their safety.</p>
+        <div class="text-wrapper-19">4</div>
+        <p class="text-wrapper-20">Develop a resource map to help victims to react to crimes and self-help.</p>
+        <div class="text-wrapper-21">6</div>
+        <p class="text-wrapper-22">
+          Facilitate informed decision-making among planners, policymakers, and community to implement effective
+          strategies.
+        </p>
+        <img class="image-3" src="img/image-40.png" />
+        <p class="join-our-pioneering">
+          Join our pioneering project that empowers you to make your city safer: share your personal experiences with
+          crime on our interactive platform, and together, let&#39;s reveal and understand the spatial-temporal
+          landscape of urban crime. By mapping out crime hotspots and nearby safety amenities, we&#39;re not just
+          sharing stories—we&#39;re building a community-driven force for change and safety in our neighborhoods.
+        </p>
+      </div>
+    </div>
+	  
+	  <script>
+		  // Fade in effect once the page is loaded
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.body.classList.add('fade-in');
+        });
+
+        // Fade out effect when a link is clicked
+        document.addEventListener('click', (event) => {
+            const target = event.target;
+
+            if (target.tagName === 'A' && !target.hasAttribute('target')) {
+                event.preventDefault(); // Prevent the default link behavior
+                const href = target.href; // Get the link's href value
+
+                // Apply a fade-out effect
+                document.body.style.opacity = '0';
+
+                // Wait for the fade-out effect to finish before navigating
+                setTimeout(() => {
+                    window.location.href = href;
+                }, 250); // Match this duration to your CSS transition duration
+            }
+        });
+	  </script>
+  </body>
+</html>

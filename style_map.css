@@ -1,0 +1,1131 @@
+.mapping {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.mapping .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 3132px;
+  position: relative;
+}
+
+.mapping .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 165px;
+  left: 130px;
+}
+
+.mapping .text-wrapper {
+  position: relative;
+  width: 277.76px;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: var(--gray-4);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+
+.mapping .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #333333;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.mapping .rectangle {
+  position: absolute;
+  width: 1170px;
+  height: 1px;
+  top: 323px;
+  left: 135px;
+  background-color: var(--gray-6);
+}
+
+.mapping .group {
+  position: absolute;
+  width: 1174px;
+  height: 435px;
+  top: 353px;
+  left: 135px;
+}
+
+.mapping .overlap-group {
+  position: relative;
+  width: 1170px;
+  height: 435px;
+  background-color: var(--x-1);
+}
+
+.mapping .text-wrapper-3 {
+  position: absolute;
+  width: 440px;
+  top: 30px;
+  left: 700px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: var(--gray-4);
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.mapping .group-wrapper {
+  position: absolute;
+  width: 222px;
+  height: 71px;
+  top: 334px;
+  left: 700px;
+}
+
+.mapping .div-wrapper {
+  height: 71px;
+  background-color: #ffffff;
+}
+
+.mapping .group-2 {
+  position: relative;
+  width: 130px;
+  height: 24px;
+  top: 24px;
+  left: 42px;
+}
+
+.mapping .view-more {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--gray-1);
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.mapping .arrow-right-long {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 104px;
+}
+
+.mapping .p {
+  position: absolute;
+  width: 433px;
+  top: 98px;
+  left: 700px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.mapping .image {
+  position: absolute;
+  width: 670px;
+  height: 435px;
+  top: 0;
+  left: 0;
+}
+
+.zoomed-out-iframe {
+  transform: scale(0.65);
+  width: 88%;
+  height: 154%;
+  transform-origin: top left;
+  overflow: hidden;
+}
+
+.survey-iframe {
+  transform: scale(0.65);
+  width: 100%;
+  height: 154%;
+  transform-origin: top left;
+  overflow: hidden;
+}
+
+.mapping .overlap {
+  position: absolute;
+  width: 1198px;
+  height: 477px;
+  top: 848px;
+  left: 109px;
+}
+
+.mapping .overlap-wrapper {
+  position: absolute;
+  width: 1172px;
+  height: 474px;
+  top: 0;
+  left: 26px;
+}
+
+.mapping .overlap-2 {
+  position: relative;
+  width: 1170px;
+  height: 474px;
+  background-color: var(--x-1);
+}
+
+.mapping .img {
+  position: absolute;
+  width: 670px;
+  height: 474px;
+  top: 0;
+  left: 0;
+}
+
+.mapping .text-wrapper-4 {
+  position: absolute;
+  width: 440px;
+  top: 25px;
+  left: 700px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: var(--gray-4);
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.mapping .group-3 {
+  position: absolute;
+  width: 222px;
+  height: 71px;
+  top: 379px;
+  left: 726px;
+  background-color: #ffffff;
+}
+
+.mapping .group-4 {
+  position: relative;
+  width: 120px;
+  height: 24px;
+  top: 24px;
+  left: 52px;
+}
+
+.mapping .view-more-2 {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--gray-1);
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.mapping .arrow-right-long-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 94px;
+}
+
+.mapping .provides-crucial {
+  position: absolute;
+  width: 422px;
+  top: 84px;
+  left: 726px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.mapping .span {
+  font-weight: 300;
+}
+
+.mapping .text-wrapper-5 {
+  font-weight: 700;
+}
+
+.mapping .text {
+  position: absolute;
+  width: 219px;
+  top: 414px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 24px;
+}
+
+.mapping .overlap-group-wrapper {
+  position: absolute;
+  width: 158px;
+  height: 186px;
+  top: 17px;
+  left: 41px;
+}
+
+.mapping .overlap-3 {
+  position: relative;
+  width: 152px;
+  height: 186px;
+}
+
+.mapping .rectangle-2 {
+  position: absolute;
+  width: 142px;
+  height: 186px;
+  top: 0;
+  left: 0;
+  background-color: #f6f8f7;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.mapping .healthcare-CCTV {
+  position: absolute;
+  width: 126px;
+  top: 21px;
+  left: 26px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.mapping .text-wrapper-6 {
+  position: absolute;
+  width: 126px;
+  top: 26px;
+  left: 9px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.mapping .text-wrapper-7 {
+  position: absolute;
+  width: 126px;
+  top: 4px;
+  left: 9px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.mapping .cctv {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 100px;
+  left: 6px;
+}
+
+.mapping .rail {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 126px;
+  left: 6px;
+}
+
+.mapping .hospital {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 76px;
+  left: 8px;
+}
+
+.mapping .police {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 148px;
+  left: 6px;
+}
+
+.mapping .image-2 {
+  position: absolute;
+  width: 112px;
+  height: 24px;
+  top: 46px;
+  left: 8px;
+  object-fit: cover;
+}
+
+.mapping .group-5 {
+  position: absolute;
+  width: 1193px;
+  height: 256px;
+  top: 1345px;
+  left: 122px;
+}
+
+.mapping .overlap-4 {
+  position: absolute;
+  width: 1183px;
+  height: 209px;
+  top: 47px;
+  left: 0;
+  background-image: url(./img/rectangle-7.svg);
+  background-size: 100% 100%;
+}
+
+.mapping .overlap-group-2 {
+  position: absolute;
+  width: 376px;
+  height: 209px;
+  top: 0;
+  left: 807px;
+}
+
+.mapping .text-2 {
+  position: absolute;
+  width: 294px;
+  height: 209px;
+  top: 0;
+  left: 68px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.mapping .other-resources-rape {
+  position: absolute;
+  width: 376px;
+  height: 170px;
+  top: 19px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.mapping .text-wrapper-8 {
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.mapping .report-a-crime-click {
+  position: absolute;
+  width: 331px;
+  height: 192px;
+  top: 10px;
+  left: 17px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.mapping .text-wrapper-9 {
+  line-height: 25px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.mapping .text-wrapper-10 {
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.mapping .text-wrapper-11 {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.mapping .text-wrapper-12 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.mapping .text-wrapper-13 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.mapping .text-wrapper-14 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 12px;
+}
+
+.mapping .services-for-victims {
+  position: absolute;
+  width: 399px;
+  height: 164px;
+  top: 38px;
+  left: 366px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.mapping .text-wrapper-15 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.mapping .text-wrapper-16 {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.mapping .text-wrapper-17 {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.mapping .text-wrapper-18 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.mapping .text-wrapper-19 {
+  position: absolute;
+  width: 445px;
+  top: 0;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: var(--gray-4);
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.mapping .overlap-5 {
+  position: absolute;
+  width: 1440px;
+  height: 102px;
+  top: 3px;
+  left: 0;
+}
+
+.mapping .SIDE-BAR-DONT-DELETE {
+  position: absolute;
+  width: 1440px;
+  height: 102px;
+  top: 0;
+  left: 0;
+}
+
+.mapping .about {
+  position: absolute;
+  width: 68px;
+  top: 44px;
+  left: 604px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--gray-1);
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.mapping .method {
+  width: 80px;
+  top: 44px;
+  left: 727px;
+  font-weight: 400;
+  color: var(--gray-1);
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  white-space: nowrap;
+}
+
+.mapping .shared-story {
+  position: absolute;
+  width: 124px;
+  top: 44px;
+  left: 982px;
+  transform: rotate(0.13deg);
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--gray-1);
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.mapping .survey {
+  width: 124px;
+  top: 44px;
+  left: 1146px;
+  transform: rotate(0.13deg);
+  font-weight: 400;
+  color: var(--gray-1);
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  white-space: nowrap;
+}
+
+.mapping .text-wrapper-20 {
+  width: 127px;
+  top: 44px;
+  left: 855px;
+  font-weight: 400;
+  color: var(--gray-1);
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  white-space: nowrap;
+}
+
+.mapping .text-wrapper-21 {
+  position: absolute;
+  width: 66px;
+  top: 59px;
+  left: 135px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.mapping .WE-TOO {
+  position: absolute;
+  width: 33px;
+  height: 35px;
+  top: 22px;
+  left: 151px;
+  object-fit: cover;
+}
+
+.mapping .rectangle-3 {
+  top: 65px;
+  position: absolute;
+  width: 68px;
+  height: 2px;
+  left: 855px;
+  background-color: #333333;
+}
+
+.mapping .rectangle-4 {
+  position: absolute;
+  width: 68px;
+  height: 2px;
+  top: 33px;
+  left: 855px;
+  background-color: #333333;
+}
+
+.mapping .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 282px;
+  height: 131px;
+  align-items: flex-start;
+  position: absolute;
+  top: 1681px;
+  left: 141px;
+}
+
+.mapping .group-6 {
+  position: absolute;
+  width: 625px;
+  height: 471px;
+  top: 2162px;
+  left: 682px;
+}
+
+.mapping .image-3 {
+  position: absolute;
+  width: 572px;
+  height: 425px;
+  top: 0;
+  left: 17px;
+  object-fit: cover;
+}
+
+.mapping .element-of-women-and {
+  position: absolute;
+  width: 623px;
+  top: 438px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  line-height: 14px;
+  text-decoration: underline;
+}
+
+.mapping .group-7 {
+  position: absolute;
+  width: 644px;
+  height: 253px;
+  top: 1867px;
+  left: 154px;
+}
+
+.mapping .image-4 {
+  position: absolute;
+  width: 642px;
+  height: 230px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.mapping .victims-of-sexual {
+  position: absolute;
+  width: 426px;
+  top: 238px;
+  left: 125px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 12px;
+  text-decoration: underline;
+}
+
+.mapping .group-8 {
+  position: absolute;
+  width: 455px;
+  height: 466px;
+  top: 2162px;
+  left: 178px;
+}
+
+.mapping .image-5 {
+  position: absolute;
+  width: 453px;
+  height: 425px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.mapping .perpetrators-of {
+  position: absolute;
+  width: 452px;
+  top: 438px;
+  left: 1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 3.2px;
+  line-height: 16px;
+  text-decoration: underline;
+}
+
+.mapping .group-9 {
+  position: absolute;
+  width: 397px;
+  height: 233px;
+  top: 1851px;
+  left: 867px;
+  background-image: url(./img/image-43.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.mapping .footer {
+  position: absolute;
+  width: 1440px;
+  height: 417px;
+  top: 2715px;
+  left: 0;
+  background-color: transparent;
+}
+
+.mapping .overlap-6 {
+  position: relative;
+  width: 1442px;
+  height: 417px;
+}
+
+.mapping .group-10 {
+  position: absolute;
+  width: 1442px;
+  height: 417px;
+  top: 0;
+  left: 0;
+}
+
+.mapping .overlap-group-3 {
+  position: relative;
+  width: 1440px;
+  height: 417px;
+  background-color: #2c2c2c;
+}
+
+.mapping .line {
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  top: 346px;
+  left: 0;
+  object-fit: cover;
+}
+
+.mapping .element-landing-all {
+  position: absolute;
+  height: 22px;
+  top: 371px;
+  left: 591px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #c8c8c880;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.mapping .WE-TOO-w {
+  position: absolute;
+  width: 75px;
+  height: 82px;
+  top: 55px;
+  left: 149px;
+  object-fit: cover;
+}
+
+.mapping .text-wrapper-22 {
+  position: absolute;
+  width: 114px;
+  top: 144px;
+  left: 130px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.mapping .element {
+  position: absolute;
+  width: 193px;
+  height: 64px;
+  top: 58px;
+  left: 1035px;
+}
+
+.mapping .FOLLOW-US {
+  position: absolute;
+  height: 19px;
+  top: 0;
+  left: 1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.mapping .facebook {
+  position: absolute;
+  width: 10px;
+  height: 19px;
+  top: 43px;
+  left: 1px;
+}
+
+.mapping .twitter {
+  position: absolute;
+  width: 22px;
+  height: 17px;
+  top: 46px;
+  left: 51px;
+}
+
+.mapping .shape {
+  position: absolute;
+  width: 14px;
+  height: 18px;
+  top: 45px;
+  left: 113px;
+}
+
+.mapping .group-11 {
+  position: absolute;
+  width: 625px;
+  height: 229px;
+  top: 58px;
+  left: 360px;
+}
+
+.mapping .text-wrapper-23 {
+  position: absolute;
+  width: 117px;
+  height: 24px;
+  top: 149px;
+  left: 291px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.mapping .text-wrapper-24 {
+  position: absolute;
+  width: 181px;
+  height: 24px;
+  top: 205px;
+  left: 291px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.mapping .text-wrapper-25 {
+  position: absolute;
+  width: 82px;
+  height: 24px;
+  top: 45px;
+  left: 1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.mapping .text-wrapper-26 {
+  width: 56px;
+  height: 24px;
+  top: 85px;
+  left: 1px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  white-space: nowrap;
+}
+
+.mapping .text-wrapper-27 {
+  width: 61px;
+  height: 24px;
+  top: 125px;
+  left: 1px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  white-space: nowrap;
+}
+
+.mapping .text-wrapper-28 {
+  position: absolute;
+  width: 94px;
+  height: 24px;
+  top: 165px;
+  left: 1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.mapping .text-wrapper-29 {
+  width: 64px;
+  height: 24px;
+  top: 205px;
+  left: 1px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  white-space: nowrap;
+}
+
+.mapping .text-wrapper-30 {
+  position: absolute;
+  width: 103px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.mapping .text-wrapper-31 {
+  position: absolute;
+  width: 75px;
+  height: 20px;
+  top: 0;
+  left: 260px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.mapping .vector {
+  position: absolute;
+  width: 11px;
+  height: 16px;
+  top: 45px;
+  left: 261px;
+}
+
+.mapping .group-12 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 149px;
+  left: 261px;
+}
+
+.mapping .group-13 {
+  position: absolute;
+  width: 16px;
+  height: 11px;
+  top: 210px;
+  left: 261px;
+}
+
+.mapping .element-architecture-dr {
+  position: absolute;
+  width: 314px;
+  top: 45px;
+  left: 291px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+}
+
+.element-architecture-dr a:hover {
+	color:grey;
+}
+
+.element-architecture-dr a {
+	color: #ffffff;
+}
+
+.text-wrapper-24 a:hover {
+	color:grey;
+}
+
+.text-wrapper-24 a {
+	color: #ffffff;
+}
+
+body {
+    opacity: 0; /* Start with the body fully transparent */
+    transition: opacity 0.5s ease-in; /* Transition effect for opacity */
+}
+
+/* Class to be added after the page is loaded */
+.fade-in {
+    opacity: 1; /* Fully visible */
+}
+
+.SIDE-BAR-DONT-DELETE a {
+    font-weight: normal; /* Default font weight */
+    transition: font-weight 0.3s ease; /* Smooth transition for font-weight */
+	color: blue; /* Initial color */
+    transition: color 0.5s ease; /* Animation: property duration timing-function */
+}
+
+.SIDE-BAR-DONT-DELETE a:hover {
+    font-weight: bold; /* Font weight changes to bold on hover */
+	color: red; 
+}
+
+
